@@ -1,0 +1,12 @@
+name: LoncoUtils
+main: com.LoncoCraft.LoncoUtils.Main
+version: 1.1.0
+author: LoncoCraft
+description: LoncoUtils, utilidades para LoncoCraft
+softdepend: [ProtocolLib,MVdWPlaceholderAPI]
+commands:
+   loncoreload:
+      description: Recarga la config de LoncoUtils
+      usage: /loncoreload
+      permission: LoncoUtils.admin, LoncoUtils.Enderpear.Bypass
+      permission-message: Usted no tiene permisos para esto
